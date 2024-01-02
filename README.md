@@ -36,3 +36,5 @@ This repository contains code for brain tumor segmentation using a 3D U-Net arch
 ### Acknowledgments
 - The U-Net architecture used in this project is adapted from the original paper: [U-Net: Convolutional Networks for Biomedical Image Segmentation.](https://arxiv.org/abs/1505.04597)
 - Data used in this project can be obtained from the [BraTS challenge](https://www.med.upenn.edu/cbica/brats/).
+- Nilearn [documentation](https://nilearn.github.io/stable/index.html)
+- Nibabel [documentation](https://nipy.org/nibabel/)
