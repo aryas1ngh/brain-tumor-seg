@@ -18,7 +18,7 @@ This repository contains code for brain tumor segmentation using a 3D U-Net arch
 
 5. The notebook includes sections for data exploration, preprocessing, model architecture, training, and evaluation.
 
-6. After training, the model will be saved as bt_seg.hdf5.
+6. After training, the model will be saved as ```bt_seg.hdf5```.
 
 7. To test the trained model on a specific image, load the image and its corresponding mask using the provided function ```test_model```. Update the file paths accordingly.
 
