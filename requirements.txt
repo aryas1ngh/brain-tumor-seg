@@ -1,0 +1,6 @@
+numpy
+tensorflow
+matplotlib
+os
+nilearn
+nibabel
