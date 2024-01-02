@@ -2,9 +2,8 @@
 
 This repository contains code for brain tumor segmentation using a 3D U-Net architecture. The model is trained on magnetic resonance imaging (MRI) data with different modalities, including T1, T1-CE, T2, and FLAIR. The segmentation task involves identifying the tumor region in the brain scans. The dataset used is BraTS Challenge 2020, organized by Perelmann Med School, UPenn.
 
-Kaggle dataset link (train + val) : [link](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
-
-BraTS Challenge : [link](https://www.med.upenn.edu/cbica/brats/)
+- Kaggle dataset link (train + val) : [link](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
+- BraTS Challenge : [link](https://www.med.upenn.edu/cbica/brats/)
 
 
 1. Clone the repo:
@@ -35,5 +34,5 @@ BraTS Challenge : [link](https://www.med.upenn.edu/cbica/brats/)
 
 
 ### Acknowledgments
-The U-Net architecture used in this project is adapted from the original paper: [U-Net: Convolutional Networks for Biomedical Image Segmentation.](https://arxiv.org/abs/1505.04597)
-Data used in this project can be obtained from the [BraTS challenge](https://www.med.upenn.edu/cbica/brats/).
+- The U-Net architecture used in this project is adapted from the original paper: [U-Net: Convolutional Networks for Biomedical Image Segmentation.](https://arxiv.org/abs/1505.04597)
+- Data used in this project can be obtained from the [BraTS challenge](https://www.med.upenn.edu/cbica/brats/).
