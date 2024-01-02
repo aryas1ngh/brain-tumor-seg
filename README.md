@@ -28,10 +28,10 @@ BraTS Challenge : [link](https://www.med.upenn.edu/cbica/brats/)
 
 
 ### Files
-```bt_seg_colab.ipynb```: Jupyter notebook containing the code for data processing, model training, and evaluation.
-```README.md```: Brief overview and usage instructions.
-```sample-brain-images.png```: Sample scans of T1, T1-CE, T2 and FLAIR modality with tumor mask.
-```unet_arch.png```: Model architecture diagram.
+- ```bt_seg_colab.ipynb```: Jupyter notebook containing the code for data processing, model training, and evaluation.
+- ```README.md```: Brief overview and usage instructions.
+- ```sample-brain-images.png```: Sample scans of T1, T1-CE, T2 and FLAIR modality with tumor mask.
+- ```unet_arch.png```: Model architecture diagram.
 
 
 ### Acknowledgments
