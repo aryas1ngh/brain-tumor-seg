@@ -7,22 +7,26 @@ This repository contains code for brain tumor segmentation using a 3D U-Net arch
 
 
 1. Clone the repo:
-```git clone https://github.com/aryas1ngh/brain-tumor-seg.git```
+```bash
+git clone https://github.com/aryas1ngh/brain-tumor-seg.git
+```
 
-2.  Install the requirements:
-```pip install -r requirements.txt```
+3.  Install the requirements:
+```bash
+pip install -r requirements.txt
+```
 
-3. Download the MRI data into the specified directory ```'/bt_data/'```. You can modify the data path in the code if needed. Store the training and validation data in ```/train/``` and ```/val/``` respectively.
+5. Download the MRI data into the specified directory ```'/bt_data/'```. You can modify the data path in the code if needed. Store the training and validation data in ```/train/``` and ```/val/``` respectively.
 
-4. Execute the Jupyter notebook ```bt_seg_colab.ipynb``` in a compatible environment like Google Colab. Make sure to mount your Google Drive to access the data.
+6. Execute the Jupyter notebook ```bt_seg_colab.ipynb``` in a compatible environment like Google Colab. Make sure to mount your Google Drive to access the data.
 
-5. The notebook includes sections for data exploration, preprocessing, model architecture, training, and evaluation.
+7. The notebook includes sections for data exploration, preprocessing, model architecture, training, and evaluation.
 
-6. After training, the model will be saved as ```bt_seg.hdf5```.
+8. After training, the model will be saved as ```bt_seg.hdf5```.
 
-7. To test the trained model on a specific image, load the image and its corresponding mask using the provided function ```test_model```. Update the file paths accordingly.
+9. To test the trained model on a specific image, load the image and its corresponding mask using the provided function ```test_model```. Update the file paths accordingly.
 
-8. View the training history and performance using the provided visualization functions.
+10. View the training history and performance using the provided visualization functions.
 
 
 
