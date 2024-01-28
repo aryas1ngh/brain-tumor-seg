@@ -5,28 +5,28 @@ This repository contains code for brain tumor segmentation using a 3D U-Net arch
 - Kaggle dataset link (train + val) : [link](https://www.kaggle.com/datasets/awsaf49/brats20-dataset-training-validation)
 - BraTS Challenge : [link](https://www.med.upenn.edu/cbica/brats/)
 
-
-1. Clone the repo:
+## Steps
+- Clone the repo:
 ```bash
 git clone https://github.com/aryas1ngh/brain-tumor-seg.git
 ```
 
-3.  Install the requirements:
+-  Install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
-5. Download the MRI data into the specified directory ```'/bt_data/'```. You can modify the data path in the code if needed. Store the training and validation data in ```/train/``` and ```/val/``` respectively.
+- Download the MRI data into the specified directory ```'/bt_data/'```. You can modify the data path in the code if needed. Store the training and validation data in ```/train/``` and ```/val/``` respectively.
 
-6. Execute the Jupyter notebook ```bt_seg_colab.ipynb``` in a compatible environment like Google Colab. Make sure to mount your Google Drive to access the data.
+- Execute the Jupyter notebook ```bt_seg_colab.ipynb``` in a compatible environment like Google Colab. Make sure to mount your Google Drive to access the data.
 
-7. The notebook includes sections for data exploration, preprocessing, model architecture, training, and evaluation.
+- The notebook includes sections for data exploration, preprocessing, model architecture, training, and evaluation.
 
-8. After training, the model will be saved as ```bt_seg.hdf5```.
+- After training, the model will be saved as ```bt_seg.hdf5```.
 
-9. To test the trained model on a specific image, load the image and its corresponding mask using the provided function ```test_model```. Update the file paths accordingly.
+- To test the trained model on a specific image, load the image and its corresponding mask using the provided function ```test_model```. Update the file paths accordingly.
 
-10. View the training history and performance using the provided visualization functions.
+- View the training history and performance using the provided visualization functions.
 
 
 
